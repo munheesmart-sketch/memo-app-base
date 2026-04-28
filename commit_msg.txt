@@ -1,0 +1,5 @@
+chore: Next.js 16.2.4로 업그레이드
+
+- next@16.2.4 업그레이드 (Turbopack 기본 빌드)
+- API 라우트 경로 변경: api/tags/generate -> api/generate-tags
+  (Next.js 16 Turbopack 중첩 라우트 호환성 대응)

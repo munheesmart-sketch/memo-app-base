@@ -97,7 +97,7 @@ export default function MemoForm({
     }
     setTagGenerating(true)
     try {
-      const response = await fetch('/api/tags/generate', {
+      const response = await fetch('/api/generate-tags', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ title, content }),
